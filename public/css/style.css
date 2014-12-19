@@ -1,0 +1,44 @@
+/**
+ * Style v1.0  - Jeisson Magallanes - Codeigniter
+**/
+body{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+a, a:hover{ text-decoration: none; }
+
+.clear{ clear: both; }
+
+.container{
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+.fleft{ float: left; }
+.fright{ float: right; }
+
+.transition-3s{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.transition-5s{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.w100{ width: 100%; }
